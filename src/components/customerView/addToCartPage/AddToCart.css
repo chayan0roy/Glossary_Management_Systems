@@ -1,0 +1,116 @@
+.AddToCartPage {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.chart_area {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.chart {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0;
+    box-shadow: 0 4px 15px #171616b9;
+}
+
+.leftArea {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftArea img {
+    max-width: 50%;
+    max-height: 150px;
+}
+
+
+
+.rightArea {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.rightArea h3 {
+    font-size: 23px;
+}
+.rightArea button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.rightArea button.increase_value,
+.rightArea button.decrease_value {
+    background-color: yellow;
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.summeyAreay {
+    width: 30%;
+    padding: 0 2%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* box-shadow: 0 4px 15px #171616b9; */
+}
+
+
+.summeyAreay h2 {
+    width: 100%;
+    /* padding-right: 10%; */
+    margin: 15px 0;
+}
+
+.summeyAreay h2 span {
+    float: right;
+}
+
+.summeyAreay hr {
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    border: none;
+    outline: none;
+    margin: 20px 0;
+}
+
+.summeyAreay button {
+    padding: 10px 20px;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: blue;
+    color: wheat;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
